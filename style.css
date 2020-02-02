@@ -232,7 +232,7 @@ a:active {
 }
 
 li {
-    list-style: none;
+    /*list-style: none;*/
 }
 
 .heading_text > p {
@@ -897,12 +897,13 @@ li {
 }
 
 .widget-title > h6 {
-    background: #fee2d9;
+    background: #c95832;
     height: 40px;
     width: 100%;
     line-height: 40px;
     border-radius: 2px;
     margin-bottom: 30px;
+    color: #f4f4f4;
 }
 
 .about-me-widget-thumb img {
