@@ -11,9 +11,9 @@ function cambiar_idioma(id){
         <div class="row">
             <div class="col-5 col-sm-6">
                 <div class="top_social_bar">
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true" title="Facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i></a>
+                    <a href="https://www.facebook.com/Deli-Tuna-101958801379574/" target="_blank"><i class="fa fa-facebook" aria-hidden="true" title="Facebook"></i></a>
+                    <a href="https://www.instagram.com/delitunasac/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" title="Instagram"></i></a>
+                    <a href="https://twitter.com/DeliTuna4" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i></a>
                 </div>
             </div>
             <div class="col-7 col-sm-6">
@@ -317,14 +317,17 @@ function cambiar_idioma(id){
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="footer-social-area d-flex">
-                    <div class="single-icon">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span>facebook</span></a>
-                    </div>
-                    <div class="single-icon">
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
-                    </div>
-                </div>
+            <div class="footer-social-area d-flex">
+            <div class="single-icon">
+                <a href="https://www.facebook.com/Deli-Tuna-101958801379574/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span>facebook</span></a>
+            </div>
+            <div class="single-icon">
+                <a href="https://www.instagram.com/delitunasac/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </div>
+            <div class="single-icon">
+                <a href="https://twitter.com/DeliTuna4" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+            </div>
+        </div>
             </div>
         </div>
     </div>
@@ -333,21 +336,45 @@ function cambiar_idioma(id){
 <footer class="footer_area">
     <div class="container">
         <div class="row">
-            <div class="col-6">
-                <div class="footer-content">
-                    <div class="footer-logo-area text-center">
-                        <img src="img/tuna_img/logo_final.PNG">
+        <div class="col-6" style="border-right: solid 2px black;">
+                    <h3 class="text-danger">CONTÁCTENOS</h3>
+                    <div class="footer-content">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">NOMBRE COMPLETO:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">CORREO ELECTRÓNICO:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">TELÉFONO:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">EMPRESA:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">MENSAJE:</label>
+                                <textarea type="text" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for=""></label>
+                                <button class="btn btn-primary btn-block">Enviar</button>
+                            </div>
+                        </form>
                     </div>
+                </div>
+                <div class="col-6">
+                    <div class="footer-content">
+                        <div class="footer-logo-area text-center">
+                            <img src="img/tuna_img/logo_final.PNG">
+                        </div>
 
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="footer-content">
-                    <div class="footer-logo-area text-center">
-                        <img src="img/tuna_img/logo_final.PNG">
                     </div>
                 </div>
-            </div>
         </div>
     </div>
 
@@ -363,7 +390,7 @@ function cambiar_idioma(id){
 </footer>`;
 
 if(id=="1"){
-    location.href = 'index.html';
+    location.href = '/';
 }else if("2"){
     content.innerHTML = español;
 }
